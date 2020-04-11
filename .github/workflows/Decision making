@@ -1,0 +1,26 @@
+#include<studio.h>
+Main()
+{
+Printf("enter marks");
+Scanf("%d",marks);
+If(marks>=85 && marks<=100)
+{
+Printf("GradeA");
+}
+Elif(marks>=70 && marks<=84)
+{
+Printf("GradeB");
+}
+Elif(marks>=55 && marks<=69)
+{
+Printf("GradeC");
+}
+Elif(marks>=40 && marks<=54)
+{
+Printf("GradeC");
+}
+Else
+{
+Printf("Fail");
+}
+}
